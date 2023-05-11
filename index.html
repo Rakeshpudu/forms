@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+    </head>
+    <body>
+        <form>
+          <h4>general details</h4>
+          <div>
+            <label for="username">username:</label></br>
+            <input type="text" name="username" placeholder="rakesh" required >
+          </div>
+
+          <div>
+            <label for="email">email:</label></br>
+            <input type="email" name="email" placeholder="email" required><br><br>
+          </div>
+
+          <div>
+            <label for="gender">Gender</label><br>
+            male: <input type="radio" name="gender"></br>
+            female: <input type="radio" name="gender"><br>
+          </div>
+<br><br>
+          <div>
+            <label for="subjects">subjects:</label><br>
+              html : <input type="checkbox" name="html"><br>
+              css : <input type="checkbox" name="css"><br>
+              javascript:<input type="checkbox" name="js"><br>
+          </div>
+          <div>
+            <input type="date" name="date" >
+          </div>
+          <div>
+            <input type="range">
+          </div>
+          <div>
+            <label for="subjects">choose a subject</label>
+            <select name="subject" id="sub" >
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="js">js</option>
+            </select>
+          </div>
+<br>
+<div>
+    <label for="address">adress</address></label><br>
+    <textarea name="adress" id="" cols="30" rows="10"></textarea>
+</div>
+          <div>
+            <label for="phonenumber">number:</label><br>
+            <input type="number" name="phonenumber" placeholder="enter phone number" required><br>
+          </div>
+<br>
+          <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="reset">
+          </div>
+
+        </form>
+    </body>
+</html>
